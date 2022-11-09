@@ -2,7 +2,7 @@
 [DirectX 3D - Team Project] 휴
 
 
-동영상(Client)            : https://www.youtube.com/watch?v=-ICA6lMnkI8
+동영상(Client)    : https://www.youtube.com/watch?v=-ICA6lMnkI8
 
 동영상(Tool)      : https://www.youtube.com/watch?v=xXEDjC7VByM
 
