@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{79b751ee-d8af-4bd3-bc36-03589fec27e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc">
+      <UniqueIdentifier>{28b697de-985f-4256-8d6e-57d2013c60a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="98. Header">
+      <UniqueIdentifier>{b04ff054-9160-4e10-8a97-d27d783e373f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{e733cc0e-e7a5-4d22-aba9-465322fd6208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Logo">
+      <UniqueIdentifier>{5b29d31e-d345-4317-8266-878b7363f903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj">
+      <UniqueIdentifier>{ef7e25be-3ad3-4346-85a6-7d5d6490eea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\00.Player">
+      <UniqueIdentifier>{809308e1-ecba-4a35-8863-c948265fe192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround">
+      <UniqueIdentifier>{da10bc6f-afcf-4dfd-a3e7-211ba48e8258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\03.StaticCamera">
+      <UniqueIdentifier>{7ee5408c-1c6c-4ad5-991c-9df7305d88eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\03.StaticCamera\00.CameraObserver">
+      <UniqueIdentifier>{e20274ef-8f84-47af-84fe-b55b0459e276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube">
+      <UniqueIdentifier>{6560b5c0-46c7-44f7-b47c-9c98c6b74b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\99.UI">
+      <UniqueIdentifier>{0617d7ac-4934-44e6-8c5a-9a8be2529cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\99.UI\00.ColorCircle">
+      <UniqueIdentifier>{be1e68f0-9110-4917-9421-53f12a41e10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\99.UI\00.ColorCircle\00.ColorPart">
+      <UniqueIdentifier>{0778bbd2-925a-403f-a2ed-2e1cb7a5f401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\99.UI\00.ColorCircle\01.InsideCircle">
+      <UniqueIdentifier>{8bbddcae-1305-4d51-a1d8-7fd4dc1f6388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject">
+      <UniqueIdentifier>{d5619ce9-a64a-42f4-b490-13bd092f1147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\00.Smoke">
+      <UniqueIdentifier>{53338fe7-95de-437a-867e-7f9e141a681d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\01.Character">
+      <UniqueIdentifier>{382c5c49-ca07-4a2f-8710-ef24df232b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\02.Object">
+      <UniqueIdentifier>{b00a507a-e0f7-41c9-9c93-5ca9f3f8af83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\01.Character\00.BackHue">
+      <UniqueIdentifier>{dea62462-cec9-4b7f-8162-d99ece9db7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\01.Character\00.BackHue\00.BackColorChunk">
+      <UniqueIdentifier>{03cfb9e9-3c2e-446f-a3ad-1c57f9730c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\01.Character\01.BackDrGrey">
+      <UniqueIdentifier>{6338421d-e772-476f-b026-1ae2885a40ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\01.Character\02.BackMum">
+      <UniqueIdentifier>{c1abd3dd-f23e-4370-b13f-7c8b4c544820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\02.Object\00.BackBook">
+      <UniqueIdentifier>{bdc276cf-2543-4857-b331-812194fe80fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\02.Object\01.BackSeaHorse">
+      <UniqueIdentifier>{1be1cc7c-a616-42bb-93df-a80d6450ad96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\02.Object\02.BackWolf">
+      <UniqueIdentifier>{b7c5c521-ab0e-4452-8762-484cbf85507b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\02.Object\03.BackGameLogo">
+      <UniqueIdentifier>{cc7610d2-12f2-4be8-8930-bca40f892cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\02.Object\04.BackKeyBoard">
+      <UniqueIdentifier>{f11ec888-34a9-4df2-bc52-fc517a11ceca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\00.BackObject\03.BackLight">
+      <UniqueIdentifier>{2d5a825c-ad6b-4a96-82a6-e12076b4b151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\05.Particle">
+      <UniqueIdentifier>{45d4bdb7-2141-44dc-a129-7e62db60bf66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\05.Particle\00.Fire">
+      <UniqueIdentifier>{48a068a9-9f56-40ef-87ca-834309bdd9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\05.Particle\01.Dust">
+      <UniqueIdentifier>{12dff410-1e3b-4d1b-b250-dfdab77bd561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\99.UI\01.Hand">
+      <UniqueIdentifier>{e398fc0d-be9c-4046-ba2c-254fb21656b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\99.UI\02.Mouse">
+      <UniqueIdentifier>{27a32392-59a1-4840-b63e-3951796787e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\05.Manager">
+      <UniqueIdentifier>{d8a639d4-b1e0-437b-a0e7-b5ff0d3cabd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\06.Obstacle">
+      <UniqueIdentifier>{221b376f-2223-4167-982c-ca409721831f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\05.Particle\03.SkullDust">
+      <UniqueIdentifier>{af673d27-120c-4e78-b1c1-eccab1486b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\05.Particle\04.Snow">
+      <UniqueIdentifier>{6603cf1d-3a93-49a6-aafd-83caab4bb935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\00.CubeDeco">
+      <UniqueIdentifier>{a897b109-ffe3-47f7-989b-fc918e11c966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\01.CubeColor">
+      <UniqueIdentifier>{9bec5bd1-3ac6-4144-b787-888e537dc7bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\01.CubeColor\00.Brick">
+      <UniqueIdentifier>{d0adfd90-8d94-44e1-8b0b-811c4652ee4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\01.CubeColor\01.Crate">
+      <UniqueIdentifier>{9b832186-0dc2-4fc0-b4d7-54fa9aa63210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\01.CubeColor\02.Platform">
+      <UniqueIdentifier>{fca480d7-d9c2-4ecc-b168-30169ef7dda1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\02.CubeSkull">
+      <UniqueIdentifier>{a5db71d9-851f-4c63-ac5e-1969128be47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\06.Obstacle\00.Key">
+      <UniqueIdentifier>{c307566e-9b66-4fa0-8b45-ed32165346fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\06.Obstacle\01.Door">
+      <UniqueIdentifier>{cad94bfc-0fb8-4103-a0ab-db750d878298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\02.BackGround\01.Skybox">
+      <UniqueIdentifier>{e57ceabd-35c6-4526-a688-ed8918ac04b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\05.Particle\05.KeyEffect">
+      <UniqueIdentifier>{af9c8ea0-bd47-4c10-8861-654ec7ae8432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\06.Obstacle\02.Outline">
+      <UniqueIdentifier>{5c9f2c77-5a11-42f4-bbe2-9321eb13c9fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\99.UI\03.ButtonX">
+      <UniqueIdentifier>{d0abb2bc-0a2e-436b-a87e-c1aa3cf779cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\05.Manager\00.CollisionManager">
+      <UniqueIdentifier>{3002389a-c793-4975-8368-ea315c84199a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\05.Manager\01.CubeManager">
+      <UniqueIdentifier>{30c6c8bd-4029-4a6f-8336-1f127241d5b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\03.CubeRope">
+      <UniqueIdentifier>{d3ecacaf-33d2-4986-82a3-e48c3781e819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\04.CubeLaser">
+      <UniqueIdentifier>{a7ecc4e8-f603-4814-9756-785e40ebd58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\04.CubeLaser\00.Laser">
+      <UniqueIdentifier>{97d4ffb3-52e9-4b2d-86bc-a3e79c4f832a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\05.Particle\06.LaserEffect">
+      <UniqueIdentifier>{6ad560c1-2342-4e67-aeb9-2be6eea7802d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\05.CubeSpikes">
+      <UniqueIdentifier>{7c8def9e-2cb4-488b-85e1-43a9561bef2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\06.CubeStairs">
+      <UniqueIdentifier>{4d3e3196-a559-49d2-b35f-d672aeac4c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\07.CubeRock">
+      <UniqueIdentifier>{dbfe8bc8-ae41-4bbf-91b8-4bb8479b13b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\08.CubeBalloon">
+      <UniqueIdentifier>{be073b28-6590-4969-8055-ddcb00193c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\02.Stage">
+      <UniqueIdentifier>{f8464398-9d24-40a2-be90-f4b0503381fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\03.Stage2">
+      <UniqueIdentifier>{6dd98ed5-7cd5-4f11-9a81-9f2ae7ba9a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial">
+      <UniqueIdentifier>{7be5b758-6560-43f9-ab1d-4b5f029baeba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial\00.Thread">
+      <UniqueIdentifier>{b2ad02f0-af17-46dc-991e-027d1c0150fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial\01.Tutorial_Obj">
+      <UniqueIdentifier>{7ee09b75-3891-4d47-b00e-be3b79fc9ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial\01.Tutorial_Obj\00.Water">
+      <UniqueIdentifier>{a585d8de-8f71-4ef9-8450-1cfbd1f5fcf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial\01.Tutorial_Obj\01.Loading">
+      <UniqueIdentifier>{8f2c36cc-7735-4ee9-b8dd-4e1ec55c511f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial\01.Tutorial_Obj\02.Cloud">
+      <UniqueIdentifier>{adc29d66-2497-4c9a-aae1-46887db7649c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial\01.Tutorial_Obj\03.Ship">
+      <UniqueIdentifier>{7390a075-c7ab-4607-a218-408278098d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial\01.Tutorial_Obj\04.Rain">
+      <UniqueIdentifier>{cca75389-e946-4c88-a813-76a08176f98a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial\01.Tutorial_Obj\05.Player">
+      <UniqueIdentifier>{db7832b4-d879-4039-b976-cfe156e964d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial\01.Tutorial_Obj\06.Pier">
+      <UniqueIdentifier>{00931308-985a-4264-bbdc-b3cdc03482e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial\01.Tutorial_Obj\07.TutoCamera">
+      <UniqueIdentifier>{1f19dc71-8f80-441b-8f2d-43b61cfa8bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\99.UI\04.ColorHP">
+      <UniqueIdentifier>{b77c3d20-a451-45c7-a811-b717182a2381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\06.Obstacle\03.Battery">
+      <UniqueIdentifier>{01b88fec-0588-405d-9baf-2c0160f9a255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial\08.Rocks">
+      <UniqueIdentifier>{dba16fca-6d5d-4ef3-97ef-1072b6485e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\05.Particle\07.LightEffect">
+      <UniqueIdentifier>{6ed34e42-209f-4c95-ac1f-22471c3b7d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\06.Obstacle\04.SavePoint">
+      <UniqueIdentifier>{2da335e4-eb5d-4032-b31c-9c2344504105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\99.UI\05.ProgressBar">
+      <UniqueIdentifier>{aadb365f-9ac4-435e-a50c-b2d0cc488fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\04.Stage3">
+      <UniqueIdentifier>{0de9689f-827e-4018-9635-52db70ca5800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\09.CubeFirecracker">
+      <UniqueIdentifier>{2b175157-98f9-48a4-abb3-66a94b1a8a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj\04.Cube\09.CubeFirecracker\00.CubeFireParent">
+      <UniqueIdentifier>{4d5b6ac4-3908-47e1-be75-339ea9fde2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Tutorial\01.Tutorial_Obj\08.Cgv">
+      <UniqueIdentifier>{b4b4f115-468c-49db-bb2c-43f7a96860cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\enum.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Include.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\value.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Logo.h">
+      <Filter>01.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stage.h">
+      <Filter>01.Scene\02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Struct.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneSelector.h">
+      <Filter>01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Player.h">
+      <Filter>02.Obj\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackGround.h">
+      <Filter>02.Obj\02.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StaticCamera.h">
+      <Filter>02.Obj\03.StaticCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CameraObserver.h">
+      <Filter>02.Obj\03.StaticCamera\00.CameraObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ColorCircle.h">
+      <Filter>02.Obj\99.UI\00.ColorCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ColorPart.h">
+      <Filter>02.Obj\99.UI\00.ColorCircle\00.ColorPart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeDeco.h">
+      <Filter>02.Obj\04.Cube\00.CubeDeco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeBrick.h">
+      <Filter>02.Obj\04.Cube\01.CubeColor\00.Brick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeCrate.h">
+      <Filter>02.Obj\04.Cube\01.CubeColor\01.Crate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeSkull.h">
+      <Filter>02.Obj\04.Cube\02.CubeSkull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\InsideCircle.h">
+      <Filter>02.Obj\99.UI\00.ColorCircle\01.InsideCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CollisionMgr.h">
+      <Filter>02.Obj\05.Manager\00.CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackObject.h">
+      <Filter>02.Obj\02.BackGround\00.BackObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackSmoke.h">
+      <Filter>02.Obj\02.BackGround\00.BackObject\00.Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackHue.h">
+      <Filter>02.Obj\02.BackGround\00.BackObject\01.Character\00.BackHue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackColorChunk.h">
+      <Filter>02.Obj\02.BackGround\00.BackObject\01.Character\00.BackHue\00.BackColorChunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackDrGrey.h">
+      <Filter>02.Obj\02.BackGround\00.BackObject\01.Character\01.BackDrGrey</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackMum.h">
+      <Filter>02.Obj\02.BackGround\00.BackObject\01.Character\02.BackMum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackBook.h">
+      <Filter>02.Obj\02.BackGround\00.BackObject\02.Object\00.BackBook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackSeaHorse.h">
+      <Filter>02.Obj\02.BackGround\00.BackObject\02.Object\01.BackSeaHorse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackWolf.h">
+      <Filter>02.Obj\02.BackGround\00.BackObject\02.Object\02.BackWolf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackGameLogo.h">
+      <Filter>02.Obj\02.BackGround\00.BackObject\02.Object\03.BackGameLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackKeyBoard.h">
+      <Filter>02.Obj\02.BackGround\00.BackObject\02.Object\04.BackKeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackLight.h">
+      <Filter>02.Obj\02.BackGround\00.BackObject\03.BackLight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Fire.h">
+      <Filter>02.Obj\05.Particle\00.Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Dust.h">
+      <Filter>02.Obj\05.Particle\01.Dust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Hand.h">
+      <Filter>02.Obj\99.UI\01.Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Mouse.h">
+      <Filter>02.Obj\99.UI\02.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ObjBasic.h">
+      <Filter>02.Obj\06.Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SkullDust.h">
+      <Filter>02.Obj\05.Particle\03.SkullDust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Snow.h">
+      <Filter>02.Obj\05.Particle\04.Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubePlatform.h">
+      <Filter>02.Obj\04.Cube\01.CubeColor\02.Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Key.h">
+      <Filter>02.Obj\06.Obstacle\00.Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SkyBox.h">
+      <Filter>02.Obj\02.BackGround\01.Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\KeyEffect.h">
+      <Filter>02.Obj\05.Particle\05.KeyEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Door.h">
+      <Filter>02.Obj\06.Obstacle\01.Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Outline.h">
+      <Filter>02.Obj\06.Obstacle\02.Outline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ButtonX.h">
+      <Filter>02.Obj\99.UI\03.ButtonX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeMgr.h">
+      <Filter>02.Obj\05.Manager\01.CubeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stage2.h">
+      <Filter>01.Scene\03.Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeRope.h">
+      <Filter>02.Obj\04.Cube\03.CubeRope</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeLaser.h">
+      <Filter>02.Obj\04.Cube\04.CubeLaser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Laser.h">
+      <Filter>02.Obj\04.Cube\04.CubeLaser\00.Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LaserEffect.h">
+      <Filter>02.Obj\05.Particle\06.LaserEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeStairs.h">
+      <Filter>02.Obj\04.Cube\06.CubeStairs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeRock.h">
+      <Filter>02.Obj\04.Cube\07.CubeRock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeBalloon.h">
+      <Filter>02.Obj\04.Cube\08.CubeBalloon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeSpikes.h">
+      <Filter>02.Obj\04.Cube\05.CubeSpikes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Tutorial.h">
+      <Filter>01.Scene\01.Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TutorialThread.h">
+      <Filter>01.Scene\01.Tutorial\00.Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Water.h">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\00.Water</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Loading.h">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\01.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cloud.h">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\02.Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Ship.h">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\03.Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Rain.h">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\04.Rain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PlayerTuto.h">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\05.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Pier.h">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\06.Pier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TutoCamera.h">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\07.TutoCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ColorHP.h">
+      <Filter>02.Obj\99.UI\04.ColorHP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Battery.h">
+      <Filter>02.Obj\06.Obstacle\03.Battery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Rocks.h">
+      <Filter>01.Scene\01.Tutorial\08.Rocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LightEffect.h">
+      <Filter>02.Obj\05.Particle\07.LightEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SavePoint.h">
+      <Filter>02.Obj\06.Obstacle\04.SavePoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ProgressBar.h">
+      <Filter>02.Obj\99.UI\05.ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stage3.h">
+      <Filter>01.Scene\04.Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeFirecracker.h">
+      <Filter>02.Obj\04.Cube\09.CubeFirecracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeFireparent.h">
+      <Filter>02.Obj\04.Cube\09.CubeFirecracker\00.CubeFireParent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cgv.h">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\08.Cgv</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99. Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Logo.cpp">
+      <Filter>01.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage.cpp">
+      <Filter>01.Scene\02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player.cpp">
+      <Filter>02.Obj\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackGround.cpp">
+      <Filter>02.Obj\02.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticCamera.cpp">
+      <Filter>02.Obj\03.StaticCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CameraObserver.cpp">
+      <Filter>02.Obj\03.StaticCamera\00.CameraObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ColorCircle.cpp">
+      <Filter>02.Obj\99.UI\00.ColorCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ColorPart.cpp">
+      <Filter>02.Obj\99.UI\00.ColorCircle\00.ColorPart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeDeco.cpp">
+      <Filter>02.Obj\04.Cube\00.CubeDeco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeBrick.cpp">
+      <Filter>02.Obj\04.Cube\01.CubeColor\00.Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeCrate.cpp">
+      <Filter>02.Obj\04.Cube\01.CubeColor\01.Crate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeSkull.cpp">
+      <Filter>02.Obj\04.Cube\02.CubeSkull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\InsideCircle.cpp">
+      <Filter>02.Obj\99.UI\00.ColorCircle\01.InsideCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CollisionMgr.cpp">
+      <Filter>02.Obj\05.Manager\00.CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackObject.cpp">
+      <Filter>02.Obj\02.BackGround\00.BackObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackSmoke.cpp">
+      <Filter>02.Obj\02.BackGround\00.BackObject\00.Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackHue.cpp">
+      <Filter>02.Obj\02.BackGround\00.BackObject\01.Character\00.BackHue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackColorChunk.cpp">
+      <Filter>02.Obj\02.BackGround\00.BackObject\01.Character\00.BackHue\00.BackColorChunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackDrGrey.cpp">
+      <Filter>02.Obj\02.BackGround\00.BackObject\01.Character\01.BackDrGrey</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackMum.cpp">
+      <Filter>02.Obj\02.BackGround\00.BackObject\01.Character\02.BackMum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackBook.cpp">
+      <Filter>02.Obj\02.BackGround\00.BackObject\02.Object\00.BackBook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackSeaHorse.cpp">
+      <Filter>02.Obj\02.BackGround\00.BackObject\02.Object\01.BackSeaHorse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackWolf.cpp">
+      <Filter>02.Obj\02.BackGround\00.BackObject\02.Object\02.BackWolf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackGameLogo.cpp">
+      <Filter>02.Obj\02.BackGround\00.BackObject\02.Object\03.BackGameLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackKeyBoard.cpp">
+      <Filter>02.Obj\02.BackGround\00.BackObject\02.Object\04.BackKeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackLight.cpp">
+      <Filter>02.Obj\02.BackGround\00.BackObject\03.BackLight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Fire.cpp">
+      <Filter>02.Obj\05.Particle\00.Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Dust.cpp">
+      <Filter>02.Obj\05.Particle\01.Dust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Hand.cpp">
+      <Filter>02.Obj\99.UI\01.Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Mouse.cpp">
+      <Filter>02.Obj\99.UI\02.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ObjBasic.cpp">
+      <Filter>02.Obj\06.Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkullDust.cpp">
+      <Filter>02.Obj\05.Particle\03.SkullDust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Snow.cpp">
+      <Filter>02.Obj\05.Particle\04.Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubePlatform.cpp">
+      <Filter>02.Obj\04.Cube\01.CubeColor\02.Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Key.cpp">
+      <Filter>02.Obj\06.Obstacle\00.Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkyBox.cpp">
+      <Filter>02.Obj\02.BackGround\01.Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\KeyEffect.cpp">
+      <Filter>02.Obj\05.Particle\05.KeyEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Door.cpp">
+      <Filter>02.Obj\06.Obstacle\01.Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Outline.cpp">
+      <Filter>02.Obj\06.Obstacle\02.Outline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ButtonX.cpp">
+      <Filter>02.Obj\99.UI\03.ButtonX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeMgr.cpp">
+      <Filter>02.Obj\05.Manager\01.CubeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage2.cpp">
+      <Filter>01.Scene\03.Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeRope.cpp">
+      <Filter>02.Obj\04.Cube\03.CubeRope</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeLaser.cpp">
+      <Filter>02.Obj\04.Cube\04.CubeLaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Laser.cpp">
+      <Filter>02.Obj\04.Cube\04.CubeLaser\00.Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LaserEffect.cpp">
+      <Filter>02.Obj\05.Particle\06.LaserEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeStairs.cpp">
+      <Filter>02.Obj\04.Cube\06.CubeStairs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeRock.cpp">
+      <Filter>02.Obj\04.Cube\07.CubeRock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeBalloon.cpp">
+      <Filter>02.Obj\04.Cube\08.CubeBalloon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeSpikes.cpp">
+      <Filter>02.Obj\04.Cube\05.CubeSpikes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Tutorial.cpp">
+      <Filter>01.Scene\01.Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TutorialThread.cpp">
+      <Filter>01.Scene\01.Tutorial\00.Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Water.cpp">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\00.Water</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Loading.cpp">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\01.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cloud.cpp">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\02.Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Ship.cpp">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\03.Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Rain.cpp">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\04.Rain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerTuto.cpp">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\05.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Pier.cpp">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\06.Pier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TutoCamera.cpp">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\07.TutoCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ColorHP.cpp">
+      <Filter>02.Obj\99.UI\04.ColorHP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Battery.cpp">
+      <Filter>02.Obj\06.Obstacle\03.Battery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Rocks.cpp">
+      <Filter>01.Scene\01.Tutorial\08.Rocks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightEffect.cpp">
+      <Filter>02.Obj\05.Particle\07.LightEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SavePoint.cpp">
+      <Filter>02.Obj\06.Obstacle\04.SavePoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ProgressBar.cpp">
+      <Filter>02.Obj\99.UI\05.ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage3.cpp">
+      <Filter>01.Scene\04.Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeFirecracker.cpp">
+      <Filter>02.Obj\04.Cube\09.CubeFirecracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeFireparent.cpp">
+      <Filter>02.Obj\04.Cube\09.CubeFirecracker\00.CubeFireParent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cgv.cpp">
+      <Filter>01.Scene\01.Tutorial\01.Tutorial_Obj\08.Cgv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

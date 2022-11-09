@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.Resources">
+      <UniqueIdentifier>{189921fe-d2f9-4105-9e3f-134693d3a536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer">
+      <UniqueIdentifier>{05c86bb1-b90e-487f-a5b3-194715da2e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer\00.TriCol">
+      <UniqueIdentifier>{02b35378-c724-40fe-9ad9-c0371b32bc07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01..ResourcesMgr">
+      <UniqueIdentifier>{72871c2d-9451-4e58-8a50-6390fd735fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Export_Resources">
+      <UniqueIdentifier>{6f1dd340-a645-4a12-a220-1206c4dbb6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\01.Texture">
+      <UniqueIdentifier>{8f0d96c7-1464-4dc8-9860-3d003a8d2ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer\01.RcCol">
+      <UniqueIdentifier>{2cda8e2b-e98c-4500-a069-ed3026633d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer\02.TerrainCol">
+      <UniqueIdentifier>{4cdb460d-2469-424d-a734-1542fe697cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer\03.RcTex">
+      <UniqueIdentifier>{66ccb9ae-6462-42f2-bb74-4bcba32ac3c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer\04.TerrainTex">
+      <UniqueIdentifier>{adebab0d-0aa0-4d37-8454-db73345e0e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer\05.Cube">
+      <UniqueIdentifier>{10d1c0f4-8da1-444c-98ed-323a09922a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer\05.Cube\00.CubeCol">
+      <UniqueIdentifier>{ed9c0583-f271-491e-a25b-dacd4bbee7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer\05.Cube\01.CubeTex">
+      <UniqueIdentifier>{14e40fe1-044f-4d91-a6ce-a663e6089c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer\06.RcyTex">
+      <UniqueIdentifier>{ce9e2f9c-aa32-4fe6-b95d-4b0910129220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer\07.CircleCol">
+      <UniqueIdentifier>{479fe969-962e-4486-b2af-7fc8d18222ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer\07.UvTex">
+      <UniqueIdentifier>{d0387534-90cc-41a2-bfc3-fdc103186a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Resources\00.VIBuffer\08.RcMouse">
+      <UniqueIdentifier>{f18f49db-7ab2-4d5a-9b04-291465891406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SoundMgr">
+      <UniqueIdentifier>{463266c7-9406-44d3-987e-c8f8ee4de623}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\Resources.h">
+      <Filter>00.Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TriCol.h">
+      <Filter>00.Resources\00.VIBuffer\00.TriCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VIBuffer.h">
+      <Filter>00.Resources\00.VIBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RcCol.h">
+      <Filter>00.Resources\00.VIBuffer\01.RcCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ResourceMgr.h">
+      <Filter>01..ResourcesMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Header\Export_Resources.h">
+      <Filter>99.Export_Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TerrainCol.h">
+      <Filter>00.Resources\00.VIBuffer\02.TerrainCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Texture.h">
+      <Filter>00.Resources\01.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RcTex.h">
+      <Filter>00.Resources\00.VIBuffer\03.RcTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TerrainTex.h">
+      <Filter>00.Resources\00.VIBuffer\04.TerrainTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeCol.h">
+      <Filter>00.Resources\00.VIBuffer\05.Cube\00.CubeCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeTex.h">
+      <Filter>00.Resources\00.VIBuffer\05.Cube\01.CubeTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RcyTex.h">
+      <Filter>00.Resources\00.VIBuffer\06.RcyTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CircleCol.h">
+      <Filter>00.Resources\00.VIBuffer\07.CircleCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UvTex.h">
+      <Filter>00.Resources\00.VIBuffer\07.UvTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RcMouse.h">
+      <Filter>00.Resources\00.VIBuffer\08.RcMouse</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\VIBuffer.cpp">
+      <Filter>00.Resources\00.VIBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Resources.cpp">
+      <Filter>00.Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TriCol.cpp">
+      <Filter>00.Resources\00.VIBuffer\00.TriCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RcCol.cpp">
+      <Filter>00.Resources\00.VIBuffer\01.RcCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ResourceMgr.cpp">
+      <Filter>01..ResourcesMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TerrainCol.cpp">
+      <Filter>00.Resources\00.VIBuffer\02.TerrainCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Texture.cpp">
+      <Filter>00.Resources\01.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RcTex.cpp">
+      <Filter>00.Resources\00.VIBuffer\03.RcTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TerrainTex.cpp">
+      <Filter>00.Resources\00.VIBuffer\04.TerrainTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeCol.cpp">
+      <Filter>00.Resources\00.VIBuffer\05.Cube\00.CubeCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeTex.cpp">
+      <Filter>00.Resources\00.VIBuffer\05.Cube\01.CubeTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RcyTex.cpp">
+      <Filter>00.Resources\00.VIBuffer\06.RcyTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CircleCol.cpp">
+      <Filter>00.Resources\00.VIBuffer\07.CircleCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UvTex.cpp">
+      <Filter>00.Resources\00.VIBuffer\07.UvTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RcMouse.cpp">
+      <Filter>00.Resources\00.VIBuffer\08.RcMouse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Header\Export_Resources.inl">
+      <Filter>99.Export_Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

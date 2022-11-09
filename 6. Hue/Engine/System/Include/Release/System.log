@@ -1,0 +1,25 @@
+﻿  System.vcxproj -> C:\Users\Administrator\Desktop\97기 SR\97A1\03.Hue\Engine\System\Include\../Bin/Release\System.dll
+  System.vcxproj -> ../Bin/Release\System.pdb (Full PDB)
+  .\Engine\System\Code\FrameMgr.h
+  .\Engine\System\Code\GraphicDev.h
+  .\Engine\System\Code\SoundMgr.h
+  .\Engine\System\Code\TimeMgr.h
+          4개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+  .\Engine\Header\Engine_Enum.h
+  .\Engine\Header\Engine_Function.h
+  .\Engine\Header\Engine_Include.h
+  .\Engine\Header\Engine_Macro.h
+  .\Engine\Header\Engine_Math.h
+  .\Engine\Header\Engine_Struct.h
+  .\Engine\Header\Export_Function.h
+  .\Engine\Header\Export_Resources.h
+  .\Engine\Header\Export_System.h
+  .\Engine\Header\Export_Utility.h
+         10개 파일이 복사되었습니다.
+  .\Engine\Header\Export_Resources.inl
+  .\Engine\Header\Export_System.inl
+  .\Engine\Header\Export_Utility.inl
+          3개 파일이 복사되었습니다.

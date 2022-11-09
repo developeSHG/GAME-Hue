@@ -1,0 +1,9 @@
+﻿  Scene.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\utility\code\scene.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Renderer.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\utility\code\renderer.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Management.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\utility\code\management.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  KeyMgr.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\utility\code\keymgr.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  코드를 생성하고 있습니다...

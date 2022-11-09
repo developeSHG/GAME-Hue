@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{fd05355d-db12-433d-b237-17be40f7f476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Document">
+      <UniqueIdentifier>{154ba8f1-8631-4a16-9d2f-2c61dc53f1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.FrameWnd">
+      <UniqueIdentifier>{8c34336d-8a4c-4aed-b9f0-3d226eddc329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View">
+      <UniqueIdentifier>{02c3d99d-012b-4240-b640-dae50c31e08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Etc">
+      <UniqueIdentifier>{37d76a3e-b912-4c1e-af10-872819245ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99.Etc\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99.Etc\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="04.Dialog">
+      <UniqueIdentifier>{7d29ccac-5eb1-49d3-8533-843526489d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\00.SubView">
+      <UniqueIdentifier>{3c07cd56-fa7b-4bb8-a33c-c03d185a25e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\01.FormView">
+      <UniqueIdentifier>{8c5920ac-6acc-4507-b6e3-f0f9c3a1061a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Manager">
+      <UniqueIdentifier>{ec88b966-6441-42b8-ba66-716443d5f189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Manager\00.ToolMgr">
+      <UniqueIdentifier>{d52d00b8-163c-4072-86d0-7c37e39c6a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MapTool">
+      <UniqueIdentifier>{529c1a92-f346-4ebf-a305-5a7b9a4c079a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{968cf3dc-fcd8-4cf4-844c-c9082fcf715f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\01.EventTool">
+      <UniqueIdentifier>{13cd9a7e-1361-4e1f-a30b-f150248e5906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\02.PathExtractorTool">
+      <UniqueIdentifier>{a6be318c-94bf-4fae-a4c7-1eb2cb3323ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\02.PathExtractorTool\00.FileInfo">
+      <UniqueIdentifier>{94528b4a-9cec-4e64-aac5-12b4e19abc22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\03.ObjectTool">
+      <UniqueIdentifier>{5e78a0cf-a024-4d2f-be95-8bacd3c0dea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object">
+      <UniqueIdentifier>{e929d73b-c89e-4d86-88f2-235fe2204c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\00.OrthoCamera">
+      <UniqueIdentifier>{ec0f70fe-3276-4c62-ae82-d4d2b8e3a09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\01.Terrain">
+      <UniqueIdentifier>{727a8ccb-d426-4280-acba-dec612030695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube">
+      <UniqueIdentifier>{6c32db03-ea46-4b8c-a2b9-0bf180aec6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\03.Obj">
+      <UniqueIdentifier>{334cf42b-422f-4895-8907-c9ab0a4eb751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\03.Obj\04.Chandlier">
+      <UniqueIdentifier>{fc9e3525-8598-4c36-becc-7ee709657581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\03.Obj\05.Door">
+      <UniqueIdentifier>{deaee925-69a1-45f8-8d72-8e858739d95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\03.Obj\06.DoorLock">
+      <UniqueIdentifier>{71217b27-cf1e-4940-9636-a3493bbb921e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\03.Obj\00.DecoObj">
+      <UniqueIdentifier>{e5f0070d-696d-41ce-b3fb-30398403b393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube\00.CubeDeco">
+      <UniqueIdentifier>{d2494161-61bf-4278-9a9f-28c04b1b70a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube\01.CubeColor">
+      <UniqueIdentifier>{5fb488d0-4879-4a04-b143-6e946d3384c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube\01.CubeColor\00.Brick">
+      <UniqueIdentifier>{8098ea6b-b9e3-478a-8679-a853f87d2899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube\01.CubeColor\01.Crate">
+      <UniqueIdentifier>{c33859fe-5cb2-4c75-b3df-10375a3fcccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube\01.CubeColor\02.Platform">
+      <UniqueIdentifier>{47e3a9a1-2045-4130-b6df-b0eb98ee8489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube\02.CubeSkull">
+      <UniqueIdentifier>{3a520e98-7e7a-4030-9e63-e3a7801f0ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube\03.CubeRope">
+      <UniqueIdentifier>{95fca8c6-ace5-4410-86fd-febcb3bf90bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube\04.CubeLaser">
+      <UniqueIdentifier>{10ae2e82-7b9b-4f84-9b7a-dda945a1c121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube\05.CubeSpikes">
+      <UniqueIdentifier>{c1136a15-45c4-4fda-a664-0de0754355fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\03.Obj\99.Etc">
+      <UniqueIdentifier>{b391c056-9a00-44a3-8c32-48f7a5c6d08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube\06.CubeStairs">
+      <UniqueIdentifier>{d8d52cdb-4772-42ea-af99-27a8310ca87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube\07.CubeRock">
+      <UniqueIdentifier>{1eec9c72-f40b-43a5-992a-b44109e95278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Object\02.Cube\08.CubeBallon">
+      <UniqueIdentifier>{6ad5c8b5-3f53-4e79-a0c1-2dbd14306227}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>01.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02.FrameWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>03.View</Filter>
+    </ClInclude>
+    <ClInclude Include="SubView.h">
+      <Filter>03.View\00.SubView</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>03.View\01.FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToolMgr.h">
+      <Filter>05.Manager\00.ToolMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>04.Dialog\00.MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTool.h">
+      <Filter>04.Dialog\01.EventTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\OrthoCamera.h">
+      <Filter>06.Object\00.OrthoCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MFCEnum.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Terrain.h">
+      <Filter>06.Object\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="PathExtractorTool.h">
+      <Filter>04.Dialog\02.PathExtractorTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FileInfo.h">
+      <Filter>04.Dialog\02.PathExtractorTool\00.FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeBrick.h">
+      <Filter>06.Object\02.Cube\01.CubeColor\00.Brick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeCrate.h">
+      <Filter>06.Object\02.Cube\01.CubeColor\01.Crate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeDeco.h">
+      <Filter>06.Object\02.Cube\00.CubeDeco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeSkull.h">
+      <Filter>06.Object\02.Cube\02.CubeSkull</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectTool.h">
+      <Filter>04.Dialog\03.ObjectTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Chandlier.h">
+      <Filter>06.Object\03.Obj\04.Chandlier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Door.h">
+      <Filter>06.Object\03.Obj\05.Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DoorLock.h">
+      <Filter>06.Object\03.Obj\06.DoorLock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Etc.h">
+      <Filter>06.Object\03.Obj\99.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DecoObj.h">
+      <Filter>06.Object\03.Obj\00.DecoObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubePlatform.h">
+      <Filter>06.Object\02.Cube\01.CubeColor\02.Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeLaser.h">
+      <Filter>06.Object\02.Cube\04.CubeLaser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeRope.h">
+      <Filter>06.Object\02.Cube\03.CubeRope</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeSpikes.h">
+      <Filter>06.Object\02.Cube\05.CubeSpikes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeStairs.h">
+      <Filter>06.Object\02.Cube\06.CubeStairs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeRock.h">
+      <Filter>06.Object\02.Cube\07.CubeRock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeBalloon.h">
+      <Filter>06.Object\02.Cube\08.CubeBallon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>01.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02.FrameWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>03.View</Filter>
+    </ClCompile>
+    <ClCompile Include="SubView.cpp">
+      <Filter>03.View\00.SubView</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>03.View\01.FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolMgr.cpp">
+      <Filter>05.Manager\00.ToolMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>04.Dialog\00.MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTool.cpp">
+      <Filter>04.Dialog\01.EventTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\OrthoCamera.cpp">
+      <Filter>06.Object\00.OrthoCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terrain.cpp">
+      <Filter>06.Object\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="PathExtractorTool.cpp">
+      <Filter>04.Dialog\02.PathExtractorTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FileInfo.cpp">
+      <Filter>04.Dialog\02.PathExtractorTool\00.FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeBrick.cpp">
+      <Filter>06.Object\02.Cube\01.CubeColor\00.Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeCrate.cpp">
+      <Filter>06.Object\02.Cube\01.CubeColor\01.Crate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeDeco.cpp">
+      <Filter>06.Object\02.Cube\00.CubeDeco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeSkull.cpp">
+      <Filter>06.Object\02.Cube\02.CubeSkull</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectTool.cpp">
+      <Filter>04.Dialog\03.ObjectTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Chandlier.cpp">
+      <Filter>06.Object\03.Obj\04.Chandlier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Door.cpp">
+      <Filter>06.Object\03.Obj\05.Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DoorLock.cpp">
+      <Filter>06.Object\03.Obj\06.DoorLock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Etc.cpp">
+      <Filter>06.Object\03.Obj\99.Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DecoObj.cpp">
+      <Filter>06.Object\03.Obj\00.DecoObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubePlatform.cpp">
+      <Filter>06.Object\02.Cube\01.CubeColor\02.Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeLaser.cpp">
+      <Filter>06.Object\02.Cube\04.CubeLaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeRope.cpp">
+      <Filter>06.Object\02.Cube\03.CubeRope</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeSpikes.cpp">
+      <Filter>06.Object\02.Cube\05.CubeSpikes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeStairs.cpp">
+      <Filter>06.Object\02.Cube\06.CubeStairs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeRock.cpp">
+      <Filter>06.Object\02.Cube\07.CubeRock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeBalloon.cpp">
+      <Filter>06.Object\02.Cube\08.CubeBallon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99.Etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99.Etc\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99.Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool.ico">
+      <Filter>99.Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Etc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

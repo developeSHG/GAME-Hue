@@ -1,0 +1,42 @@
+﻿     ../Bin/Release\Resources.lib 라이브러리 및 ../Bin/Release\Resources.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  0 of 1472 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    19 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Resources.vcxproj -> C:\Users\Administrator\Desktop\97기 SR\97A1\03.Hue\Engine\Resources\Include\../Bin/Release\Resources.dll
+  Resources.vcxproj -> ../Bin/Release\Resources.pdb (Full PDB)
+  .\Engine\Resources\Code\CircleCol.h
+  .\Engine\Resources\Code\CubeCol.h
+  .\Engine\Resources\Code\CubeTex.h
+  .\Engine\Resources\Code\RcCol.h
+  .\Engine\Resources\Code\RcMouse.h
+  .\Engine\Resources\Code\RcTex.h
+  .\Engine\Resources\Code\RcyTex.h
+  .\Engine\Resources\Code\ResourceMgr.h
+  .\Engine\Resources\Code\Resources.h
+  .\Engine\Resources\Code\TerrainCol.h
+  .\Engine\Resources\Code\TerrainTex.h
+  .\Engine\Resources\Code\Texture.h
+  .\Engine\Resources\Code\TriCol.h
+  .\Engine\Resources\Code\UvTex.h
+  .\Engine\Resources\Code\VIBuffer.h
+         15개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+  .\Engine\Header\Engine_Enum.h
+  .\Engine\Header\Engine_Function.h
+  .\Engine\Header\Engine_Include.h
+  .\Engine\Header\Engine_Macro.h
+  .\Engine\Header\Engine_Math.h
+  .\Engine\Header\Engine_Struct.h
+  .\Engine\Header\Export_Function.h
+  .\Engine\Header\Export_Resources.h
+  .\Engine\Header\Export_System.h
+  .\Engine\Header\Export_Utility.h
+         10개 파일이 복사되었습니다.
+  .\Engine\Header\Export_Resources.inl
+  .\Engine\Header\Export_System.inl
+  .\Engine\Header\Export_Utility.inl
+          3개 파일이 복사되었습니다.

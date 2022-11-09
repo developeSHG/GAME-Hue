@@ -1,0 +1,18 @@
+﻿  MapTool.cpp
+MapTool.cpp(504): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+MapTool.cpp(567): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+MapTool.cpp(579): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\03.hue\reference\header\Engine_Function.h(33): warning C4150: 불완전한 형식 'CTerrain'에 대한 포인터를 삭제했습니다. 소멸자가 호출되지 않습니다.
+  E:\03.Hue\Tool\Code\ToolMgr.h(19): note: 'CTerrain' 선언을 참조하십시오.
+  MapTool.cpp(154): note: 컴파일 중인 함수 템플릿 인스턴스화 'void Engine::Safe_Delete<CTerrain*>(T &)'에 대한 참조를 확인하십시오.
+          with
+          [
+              T=CTerrain *
+          ]
+  코드를 생성하고 있습니다.
+  1 of 1673 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    33 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Tool.vcxproj -> E:\03.Hue\Tool\Include\../Bin/Release\Tool.exe
+  Tool.vcxproj -> ../Bin/Release\Tool.pdb (Full PDB)

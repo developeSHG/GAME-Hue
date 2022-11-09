@@ -1,0 +1,19 @@
+﻿  VIBuffer.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\resources\code\resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  TriCol.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\resources\code\resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Texture.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\resources\code\resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  TerrainTex.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\resources\code\resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  TerrainCol.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\resources\code\resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  Resources.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\resources\code\resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  ResourceMgr.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\resources\code\resourcemgr.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  RcTex.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\resources\code\resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  RcCol.cpp
+e:\쥬신\6개월(sr)\day6_hw\engine\resources\code\resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Include.h': No such file or directory
+  코드를 생성하고 있습니다...
