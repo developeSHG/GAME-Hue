@@ -1,21 +1,13 @@
 # GAME-Hue
 [DirectX 3D - Team Project] 휴
 
-
 동영상(Client)    : https://www.youtube.com/watch?v=-ICA6lMnkI8
-
-동영상(Tool)      : https://www.youtube.com/watch?v=xXEDjC7VByM
-
-장르              : 어드벤처
-
-날짜              : 2019.09.01 ~ 2019.10.01
-
-인원              : 3명 (담당 파트 : Tool(Map, Object), 카메라, 이펙트, 충돌, 튜토리얼)
-
-개발 환경         : Visual Studio 2015 (x64)
-
-개발 언어 및 도구  : C++, MFC, DirectX9
-
+<br/>동영상(Tool)      : https://www.youtube.com/watch?v=xXEDjC7VByM
+<br/>장르              : 어드벤처
+<br/>날짜              : 2019.09.01 ~ 2019.10.01
+<br/>인원              : 3명 (담당 파트 : Tool(Map, Object), 카메라, 이펙트, 충돌, 튜토리얼)
+<br/>개발 환경         : Visual Studio 2015 (x64)
+<br/>개발 언어 및 도구  : C++, MFC, DirectX9
 
 ======================================================================
 
