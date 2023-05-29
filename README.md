@@ -8,6 +8,7 @@
 <br/>인원              : 3명 (담당 파트 : Tool(Map, Object), 카메라, 이펙트, 충돌, 튜토리얼)
 <br/>개발 환경         : Visual Studio 2015 (x64)
 <br/>개발 언어 및 도구  : C++, MFC, DirectX9
+<br/>Blog : https://song-ift.tistory.com/43
 
 ======================================================================
 
