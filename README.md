@@ -10,7 +10,7 @@
 <br/>개발 언어 및 도구  : C++, MFC, DirectX9
 <br/>Blog : https://song-ift.tistory.com/43
 
-======================================================================
+<hr size="5">
 
 * Map Tool, Object Tool
   - 3D 툴을 구현해 큐브 블록 배치 및 지형, 지물(오브젝트) 배치
