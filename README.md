@@ -1,4 +1,6 @@
 # GAME-Hue
+
+<img width="100%" src="https://user-images.githubusercontent.com/79896868/254760056-257d32e6-dd37-4423-abbb-e232805523d0.png"/>
 <h3>[DirectX 3D - Team Project] 휴</h3>
 
 <b>동영상(Client)</b>    : https://www.youtube.com/watch?v=-ICA6lMnkI8
